@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>caffe zipoor - daftar menu pembelian</title>
+    <title>Cafe Zipoor - Menu Digital</title>
+    <!-- Favicon / Icon Website -->
+    <link rel="icon" href="https://fav.farm/☕" />
+    <!-- File CSS Utama -->
     <link rel="stylesheet" href="style.css">
-    <!-- FontAwesome untuk Icon Keranjang & Tombol -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FontAwesome untuk Icon Keranjang & Interaksi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <!-- HEADER / NAVBAR -->
     <header class="header">
         <div class="header-content">
-            <h1>Cafe zipoor 🏫</h1>
+            <h1>Cafe Zipoor ☕</h1>
             <p id="tableInfo" class="table-badge">Memuat Nomor Meja...</p>
         </div>
     </header>
@@ -21,53 +24,61 @@
     <!-- KONTEN UTAMA: DAFTAR MENU -->
     <main class="container">
         <!-- Bilah Pencarian & Filter Kategori -->
-        <div class="filter-section">
-            <input type="text" id="searchInput" placeholder="Cari makanan atau minuman...">
-            <div class="categories">
+        <section class="filter-section">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Cari makanan atau minuman..." aria-label="Cari menu">
+            </div>
+            
+            <div class="categories" role="group" aria-label="Filter Kategori Menu">
                 <button class="cat-btn active" data-category="all">Semua</button>
                 <button class="cat-btn" data-category="makanan">Makanan</button>
                 <button class="cat-btn" data-category="minuman">Minuman</button>
                 <button class="cat-btn" data-category="snack">Snack</button>
             </div>
-        </div>
+        </section>
 
         <!-- Grid Daftar Menu -->
-        <div id="menuGrid" class="menu-grid">
-            <!-- Data Menu akan dirender secara dinamis lewat JavaScript -->
-        </div>
+        <section id="menuGrid" class="menu-grid">
+            <!-- Data Menu akan dirender secara dinamis lewat script.js -->
+        </section>
     </main>
 
-    <!-- FLOATING CART BUTTON (Tombol Keranjang Mengambang) -->
+    <!-- FLOATING CART BAR (Bilah Keranjang Mengambang) -->
     <div id="cartBar" class="cart-bar hidden">
         <div class="cart-info">
             <i class="fa-solid fa-cart-shopping"></i>
-            <span id="cartCount">0 item</span> | <span id="cartTotal">Rp 0</span>
+            <span id="cartCount">0 item</span> <span class="divider">|</span> <span id="cartTotal">Rp 0</span>
         </div>
         <button id="btnOpenCart" class="btn-checkout-trigger">Lihat Pesanan</button>
     </div>
 
     <!-- MODAL KERANJANG & CHECKOUT -->
-    <div id="cartModal" class="modal">
+    <div id="cartModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
         <div class="modal-content">
-            <span id="btnCloseCart" class="close-button">&times;</span>
-            <h2>pesanan yang anda pilih</h2>
+            <div class="modal-header">
+                <h2 id="modalTitle">Pesanan Yang Anda Pilih</h2>
+                <button id="btnCloseCart" class="close-button" aria-label="Tutup modal">&times;</button>
+            </div>
             
             <div id="cartItemsList" class="cart-items-container">
-                <!-- Item di keranjang akan muncul di sini -->
+                <!-- Item di keranjang akan dimuat di sini lewat script.js -->
             </div>
 
             <div class="cart-summary">
                 <div class="summary-row">
-                    <span>estimjasi pembayaran:</span>
+                    <span>Estimasi Pembayaran:</span>
                     <strong id="modalTotal">Rp 0</strong>
                 </div>
             </div>
 
-            <button id="btnConfirmOrder" class="btn btn-primary">kirim Pesanan</button>
+            <button id="btnConfirmOrder" class="btn btn-primary">
+                <i class="fa-solid fa-paper-plane"></i> Kirim Pesanan
+            </button>
         </div>
     </div>
 
-    <!-- SCRIPT JS -->
+    <!-- SCRIPT JAVASCRIPT -->
     <script src="script.js"></script>
 </body>
 </html>
