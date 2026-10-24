@@ -1,11 +1,33 @@
 // DATA DUMMY MENU KANTIN
 const menuData = [
-    { id: 1, name: "Nasi Goreng Spesial", category: "makanan", price: 15000, desc: "kwai tiau, bihun goreng, telur gulung, pop chiken beff, Nasi goreng dengan telur, bakso, dan suwiran ayam.", img: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=300&q=80" },
-    { id: 2, name: "Mie Ayam Bakso", category: "makanan", price: 13000, desc: "sup iga, ayam katsu, Mie kenyal dengan topping ayam gurih dan bakso sapi.", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=300&q=80" },
-    { id: 3, name: "Es Teh Manis", category: "minuman", price: 4000, desc: "ess teh, susu jahe, wedang ronde, susu kocok, stmj, es campu, es teler, Teh melati segar disajikan dengan es batu.", img: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=300&q=80" },
-    { id: 4, name: "Jus Alpukat", category: "minuman", price: 8000, desc: "jus mangga degan toping keju, jus stroberi, jus durian, pop ice, jus jeruk, Jus alpukat kental dengan tambahan susu kental manis cokelat.", img: "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=300&q=80" },
-    { id: 5, name: "Kentang Goreng", category: "snack", price: 10000, desc: "kentang cripsi, steak daging, kripik tempe, jamur enoki, bihun krispy, Kentang goreng renyah dengan taburan bumbu balado.", img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=300&q=80" }
-];
+    { id: 1, name: "Nasi Goreng Spesial", category: "makanan", price: 15000, desc: "Nasi goreng dengan telur, bakso, dan suwiran ayam.", img: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=300&q=80" },
+    { id: 2, name: "Mie Ayam Bakso", category: "makanan", price: 13000, desc: "Mie kenyal dengan topping ayam gurih dan bakso sapi.", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=300&q=80" },
+    { id: 3, name: "Es Teh Manis", category: "minuman", price: 4000, desc: "es Teh melati segar disajikan dengan es batu.", img: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=300&q=80" },
+    { id: 4, name: "Jus Alpukat", category: "minuman", price: 8000, desc: "Jus alpukat kental dengan tambahan susu kental manis cokelat.", img: "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=300&q=80" },
+    { id: 5, name: "Kentang Goreng", category: "snack", price: 10000, desc: "Kentang goreng renyah dengan taburan bumbu bala" }, 
+    { id: 1, name: "bihun goreng dengan ayam suir", img: "https://share.google/xr48AVG5hJjpNePzb" },
+    { id: 1, name: "kwai tiau goreng dengan toping telur oreg", img: "https://share.google/esC52tF6w0XTKTHCu" },
+    { id: 1, name: "ayam katsu dan nasi", img: "https://share.google/QldUt8Dz5RLShk9nx" },
+    { id: 1, name: "telor cripsy", img "https://share.google/ZAYGp7WuDzfYp0boL" },
+    { id: 1, name: "ayam geprek dengan sambal mata" , img: "https://share.google/QdDZF5Ftfn6Vlyq8b" },
+    { id: 1, name: "lontong sayur", img: "https://share.google/uTistrF0p2lhhCNgG" },
+     { id: 1, name: "ayam sayur", img: "https://share.google/AtpVEAMIjfAS6TOrG" },
+      { id: 1, name: "roti isi daging dengan sauce mayonice", img: "https://share.google/rO7I9oLNIfHgNEsVK" },
+        { id: 1, name: "roti bakar rasa stroberi coklat", img: "https://share.google/Hs80cbsRgQcezRP7O" },
+          { id: 1, name: "roti bakar rasa keju dan coklat", img: "https://share.google/9VuK5RxLWBV2P8ppK" },
+            { id: 1, name: "martabak manis", img: "https://share.google/gmsg07c5e7yJ4cLsq" },
+              { id: 1, name: "martabak asin", img: "https://share.google/V2j7MxKSpEFKrsfEO" },
+                { id: 1, name: "sup iga", igm: "https://share.google/IzjKScBNPfLN5eSqr" },
+                  { id: 1, name: "wedang ronde", igm: "https://share.google/861wLzHZRgOMS8jLh" },
+               { id: 1, name: "kopi tubruk", igm: "https://share.google/DquHti38Emvpf2NLY" },
+             { id: 1, name: "nescafe", igm: "https://share.google/wPlsCXV9XQT0eO6O8" },
+           { id: 1, name: "americano", igm: "https://share.google/8YIRsge8DBGhzu1V0" },
+         { id: 1, name: "expreso", igm: "https://share.google/SDUnq8xUcbViXKIAp" },
+       { id: 1, name: "stmj", igm: "https://share.google/yBEe4xM1gode2Zyfu" },
+     { id: 1, name: "susu kocok", igm: "https://share.google/aaHJEzWEhTfJD32E2" },
+    { id: 1, name: "joshua", igm: "https://share.google/LlUGv1f1O6t7H71E9" },
+
+                      
 
 // STATE APLIKASI
 let cart = [];
