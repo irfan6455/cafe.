@@ -1,10 +1,10 @@
 // DATA DUMMY MENU KANTIN
 const menuData = [
-    { id: 1, name: "Nasi Goreng Spesial", category: "makanan", price: 15000, desc: "Nasi goreng dengan telur, bakso, dan suwiran ayam.", img: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=300&q=80" },
-    { id: 2, name: "Mie Ayam Bakso", category: "makanan", price: 13000, desc: "Mie kenyal dengan topping ayam gurih dan bakso sapi.", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=300&q=80" },
-    { id: 3, name: "Es Teh Manis", category: "minuman", price: 4000, desc: "Teh melati segar disajikan dengan es batu.", img: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=300&q=80" },
-    { id: 4, name: "Jus Alpukat", category: "minuman", price: 8000, desc: "Jus alpukat kental dengan tambahan susu kental manis cokelat.", img: "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=300&q=80" },
-    { id: 5, name: "Kentang Goreng", category: "snack", price: 10000, desc: "Kentang goreng renyah dengan taburan bumbu balado.", img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=300&q=80" }
+    { id: 1, name: "Nasi Goreng Spesial", category: "makanan", price: 15000, desc: "kwai tiau, bihun goreng, telur gulung, pop chiken beff, Nasi goreng dengan telur, bakso, dan suwiran ayam.", img: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=300&q=80" },
+    { id: 2, name: "Mie Ayam Bakso", category: "makanan", price: 13000, desc: "sup iga, ayam katsu, Mie kenyal dengan topping ayam gurih dan bakso sapi.", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=300&q=80" },
+    { id: 3, name: "Es Teh Manis", category: "minuman", price: 4000, desc: "ess teh, susu jahe, wedang ronde, susu kocok, stmj, es campu, es teler, Teh melati segar disajikan dengan es batu.", img: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=300&q=80" },
+    { id: 4, name: "Jus Alpukat", category: "minuman", price: 8000, desc: "jus mangga degan toping keju, jus stroberi, jus durian, pop ice, jus jeruk, Jus alpukat kental dengan tambahan susu kental manis cokelat.", img: "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=300&q=80" },
+    { id: 5, name: "Kentang Goreng", category: "snack", price: 10000, desc: "kentang cripsi, steak daging, kripik tempe, jamur enoki, bihun krispy, Kentang goreng renyah dengan taburan bumbu balado.", img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=300&q=80" }
 ];
 
 // STATE APLIKASI
@@ -114,8 +114,8 @@ function addToCart(id) {
 
 // UPDATE TAMPILAN FLOATING BAR & JUMLAH
 function updateCartUI() {
-    const totalItems = cart.reduce((sum, item) => sum + item.qty, 0);
-    const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+    const totalItems = cart.reduce((sum, item) => sum +( - ) (item.qty, 0);
+    const totalPrice = cart.reduce((sum, item) => sum +( - )(item.price * item.qty), 0);
 
     const cartBar = document.getElementById('cartBar');
     if (totalItems > 0) {
