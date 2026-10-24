@@ -1,4 +1,4 @@
-// DATA DUMMY MENU KANTIN
+// DATA DUMMY MENU CAFFE ZIPOOR
 const menuData = [
     { id: 1, name: "Nasi Goreng Spesial", category: "makanan", price: 15000, desc: "Nasi goreng dengan telur, bakso, dan suwiran ayam.", img: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=300&q=80" },
     { id: 2, name: "Mie Ayam Bakso", category: "makanan", price: 13000, desc: "Mie kenyal dengan topping ayam gurih dan bakso sapi.", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=300&q=80" },
