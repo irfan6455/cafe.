@@ -7,7 +7,7 @@ const menuData = [
     { id: 5, name: "bihun" , category: "makanan", price: 15000, desc: "bihun goreng dengan ayam suir", img: "https://share.google/xr48AVG5hJjpNePzb" },
     { id: 6, name: "kwai tiau" , category: "makanan", price: 15000, desc: "kwai tiau goreng dengan toping telur oreg", img: "https://share.google/esC52tF6w0XTKTHCu" },
     { id: 7, name: "ayam katsu" , category: "makanan", price: 15000, desc: "ayam katsu dan nasi", img: "https://share.google/QldUt8Dz5RLShk9nx" },
-    { id: 8, name: "telor cripsy" , category: "makanan", price: 15000, desc: " btelor krispy", img "https://share.google/hil2gEG3o7HAwzR2k" },
+    { id: 8, name: "telor cripsy" , category: "makanan", price: 15000, desc: "telor krispy", img "https://share.google/hil2gEG3o7HAwzR2k" },
     { id: 9, name: "ayam geprek" , category: "makanan", price: 15000, desc: "ayam geprek dengan sambal mata" , img: "https://share.google/QdDZF5Ftfn6Vlyq8b" },
     { id: 10, name: "lontong sayur" , category: "makanan", price: 15000, desc: "lontong sayur", img: "https://share.google/uTistrF0p2lhhCNgG" },
     { id: 11, name: "ayam sayur" , category: "makanan", price: 15000, desc:"ayam sayur", img: "https://share.google/AtpVEAMIjfAS6TOrG" },
